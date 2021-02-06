@@ -1,0 +1,29 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+
+    background-color: #fff;
+    /* border: 1px solid #d0d0d0; */
+    border-radius: 5px;
+    padding: 25px;
+    cursor: pointer;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+    box-shadow: 0 6px 8px rgb(85 102 119 / 3%), 0 1px 1px rgb(85 102 119 / 40%);
+    text-align: left;
+
+  }
+
+  .card-container:hover {
+    transform: scale(1.03);
+  }
+
+  .card-container img {
+    width: 180px;
+    max-width: 100%;
+    height: auto;
+
+  }
